@@ -44,14 +44,4 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 LamNhom.txt
 
-hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
-$ git push origin master
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/MaiHoa150801/Group2.git
- * [new branch]      master -> master
-
-hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
-$
+h

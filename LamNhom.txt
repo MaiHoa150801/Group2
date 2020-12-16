@@ -1,0 +1,57 @@
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu
+$ git init
+Initialized empty Git repository in C:/Users/hoa.le22/Desktop/HoaDieu/.git/
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git remote add origin https://github.com/MaiHoa150801/Group2.git
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LamNhom.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git remote -v
+origin  https://github.com/MaiHoa150801/Group2.git (fetch)
+origin  https://github.com/MaiHoa150801/Group2.git (push)
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git add .
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git commit -m "Lam nhom voi dieu"
+[master (root-commit) d1942e3] Lam nhom voi dieu
+ Committer: Le Thi Mai Hoa <hoa.le22@pn.com.vn>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 LamNhom.txt
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MaiHoa150801/Group2.git
+ * [new branch]      master -> master
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$

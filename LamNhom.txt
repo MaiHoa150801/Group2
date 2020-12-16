@@ -58,3 +58,65 @@ $
 Lee Thij Misdjsf
 sdgfasgjf
 dfgasfhgsf
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git branch Hoa
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (master)
+$ git checkout Hoa
+Switched to branch 'Hoa'
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git init
+Reinitialized existing Git repository in C:/Users/hoa.le22/Desktop/HoaDieu/.git/
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git remote add origin https://github.com/MaiHoa150801/Group2.git
+fatal: remote origin already exists.
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git remote -v
+origin  https://github.com/MaiHoa150801/Group2.git (fetch)
+origin  https://github.com/MaiHoa150801/Group2.git (push)
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git add .
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git commit -m "Them nhanh hoa"
+[Hoa 5a2e61d] Them nhanh hoa
+ Committer: Le Thi Mai Hoa <hoa.le22@pn.com.vn>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 3 insertions(+)
+ create mode 100644 Mai Hoa.docx
+ create mode 100644 ~$ai Hoa.docx
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$ git push origin Hoa
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 8.90 KiB | 4.45 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Hoa' on GitHub by visiting:
+remote:      https://github.com/MaiHoa150801/Group2/pull/new/Hoa
+remote:
+To https://github.com/MaiHoa150801/Group2.git
+ * [new branch]      Hoa -> Hoa
+
+hoa.le22@asvnpnpc127 MINGW64 ~/Desktop/HoaDieu (Hoa)
+$
